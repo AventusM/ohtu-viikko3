@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 //         Opiskelijanumero piilotettu git:ssä
-        String studentNr = "000000000";
+        String studentNr = "";
         if (args.length > 0) {
             studentNr = args[0];
         }
